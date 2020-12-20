@@ -25,11 +25,11 @@ Use queue to maintain max_step_number of nodes which are also stored in another 
 ## Complecity analysis:
 Number of free nodes in the 2D grids: |V|, Number of edges between free nodes: |E|.
 ### Optimal planner
-Time: O(|V|) + O(|V|log|V|) + O(|V|) + O(1)O(|E|) = O(|E| + |V|log|V|). \\
+Time: O(|V|) + O(|V|log|V|) + O(|V|) + O(1)O(|E|) = O(|E| + |V|log|V|). 
 
 space: O(|V|^2).
 ### Random planner
-Time: O(max_step_number). \\
+Time: O(max_step_number). 
 
 space: O(max_step_number^0.5).
 
