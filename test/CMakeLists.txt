@@ -1,0 +1,2 @@
+add_executable(test_planners main.cpp)
+target_link_libraries(test_planners LINK_PUBLIC MotionPlanningDiscretePlanner)
