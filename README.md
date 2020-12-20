@@ -34,6 +34,6 @@ Time: O(max_step_number).
 space: O(max_step_number^0.5).
 
 ## Performance
-7 different grids patterns are set up to test the planners. Please see main.cpp to check the details.
+Seven different grids patterns are set up to test the planners. Please see main.cpp to check the details.
 As long as there exists shortest paths, Astar is gauranteed to find one. If max_step_number is larger than the grids size, the random planner is more likely to find a path but not gauranteed. With the decrease of max_step_number, the random planner is less likely to find a path.  
 
