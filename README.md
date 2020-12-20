@@ -2,7 +2,7 @@
 
 ## Run tests:
 ```
-sudo apt-get install libboost-all-dev
+sudo apt-get install libboost-all-dev  #install C++ boost library
 mkdir build
 cd build
 cmake .. 
